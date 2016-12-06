@@ -1,0 +1,110 @@
+/* 
+Color Palette
+#F1F0EA - white
+#932985 - purple
+#47E07D - green
+#2D232E - almost black
+#474448 - gray
+*/
+
+* {
+  font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+body{
+  background-color:#2D232E;
+  color:  #F1F0EA;
+}
+
+i{
+  display:block !important;
+  font-size: 2em !important;
+  padding-top: 3px;
+  padding-left:8px;
+}
+
+#icon-container{
+  float:top;
+  width:100%;
+  height: 40px;
+  margin:0px;
+  background-color: #47E07D;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius:10px;
+  color:white;
+  cursor:pointer;
+}
+
+#left-icon {
+  margin:0px;
+  width:40px;
+  height:100%;
+  float:left;
+}
+
+#right-content{
+  width:auto;
+  height: 100%;
+  background-color: #47E07D;
+  overflow:auto;
+}
+
+#search-area {
+  text-align:center;
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 50%;
+  margin:auto;
+}
+
+aside {
+  position:fixed;
+  top: 0px;
+  right:0px;
+  height: 100%;
+  width:0px;
+}
+
+.result-panel {
+  background-color: #47E07D;
+  margin:10px;
+  padding: 10px;
+  max-width: 500px;
+  cursor:pointer;
+}
+
+#search-random {
+  border: 3px solid white;
+  border-radius: 50px;
+  overflow:auto;
+  display: inline-block;
+  padding:0px;
+}
+
+.wikiwidget{
+  display: inline-block;
+}
+
+.search {
+  background-color: #47E07D ;
+  color: #932985;
+  padding-left:40px;
+  padding-right:20px;
+  margin:0px;
+  cursor:pointer;
+}
+
+.random {
+  background-color: #932985;
+  color: #47E07D;
+  padding-right:40px;
+  padding-left:20px;
+  margin: 0px;
+  cursor:pointer;
+}
+
+.input {
+  padding-right: 10px;
+  padding-left: 10px;
+  display:inline-block;
+}
