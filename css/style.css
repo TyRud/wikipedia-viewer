@@ -55,6 +55,7 @@ i{
   margin-left: 5px;
   width: 50%;
   margin:auto;
+  min-width:700px;
 }
 
 aside {
